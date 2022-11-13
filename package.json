@@ -1,0 +1,35 @@
+{
+  "author": "Frankie J S",
+  "bugs": {
+    "url": "https://github.com/frankie-js/fia-docs-discord-bot/issues"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1253.0"
+  },
+  "description": "A bot that posts the latest FIA Documents to a Discord channel",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.108",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "homepage": "https://github.com/frankie-js/fia-docs-discord-bot#readme",
+  "license": "AGPL-3.0-or-later",
+  "name": "fia-docs-discord-bot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankie-js/fia-docs-discord-bot.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "format:ci": "prettier --check .",
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint ."
+  },
+  "version": "0.1.0"
+}

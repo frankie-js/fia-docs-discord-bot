@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es2022"],
+    "module": "commonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "es2022",
+    "typeRoots": ["src/@types", "node_modules/@types", "../node_modules/@types"]
+  },
+  "exclude": ["./tests"],
+  "include": ["./src"]
+}
